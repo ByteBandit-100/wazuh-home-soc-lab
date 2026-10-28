@@ -7,7 +7,7 @@ Start **VM1 — Ubuntu Server** in your virtualization software.
 Log in using your Ubuntu Server credentials.
 
 **Screenshot:** 
-![alt text](image-1.png)
+![alt text](../../screenshots/server-shots/image-1.png)
 
 ---
 
@@ -60,7 +60,7 @@ Enter your Ubuntu password when prompted.
 Once connected, you can execute commands and administer the Ubuntu Server directly through PowerShell.
 
 **Screenshot:** 
-![alt text](image-2.png)
+![alt text](../../screenshots/server-shots/image-2.png)
 
 ---
 
@@ -75,7 +75,7 @@ sudo apt update && sudo apt upgrade
 Wait for the process to complete before proceeding.
 
 **Screenshot:** 
-![alt text](image-3.png)
+![alt text](../../screenshots/server-shots/image-3.png)
 
 ---
 
@@ -100,7 +100,7 @@ Wait for the installation process to finish.
 Wazuh has already been installed on my Ubuntu Server VM. However, some errors appeared during the installation process, as shown in the screenshot below. <br>
 **Screenshot:** 
 ![
-](image-4.png)
+](../../screenshots/server-shots/image-4.png)
 
 ---
 
@@ -123,19 +123,19 @@ Check the status of each service.
 ```bash
 sudo systemctl status wazuh-manager
 ```
-![alt text](image-5.png)
+![alt text](../../screenshots/server-shots/image-5.png)
 ### Wazuh Indexer
 
 ```bash
 sudo systemctl status wazuh-indexer
 ```
-![alt text](image-6.png)
+![alt text](../../screenshots/server-shots/image-6.png)
 ### Wazuh Dashboard
 
 ```bash
 sudo systemctl status wazuh-dashboard
 ```
-![alt text](image-7.png)
+![alt text](../../screenshots/server-shots/image-7.png)
 Each service should show:
 
 ```text
@@ -177,7 +177,7 @@ https://192.168.1.100
 HTTPS normally uses port `443`, so specifying `:443` is optional.
 
 **Screenshot:** 
-![alt text](image-8.png)
+![alt text](../../screenshots/server-shots/image-8.png)
 
 Log in using the credentials saved in Step 5.
 
