@@ -6,7 +6,7 @@ Ensure that all virtual machines are connected to the same network so they can c
 
 * **Wazuh Server (Ubuntu Server):** Hosts the Wazuh Manager, Wazuh Indexer, and Wazuh Dashboard.
 * **Linux Agent (Ubuntu Desktop):** Sends security events and logs to the Wazuh Server.
-* **Windows Agent (Windows 10):** Sends Windows security events and logs to the Wazuh Server.
+* **Windows Agent (Windows 11):** Sends Windows security events and logs to the Wazuh Server.
 
 ### Network Setup
 
