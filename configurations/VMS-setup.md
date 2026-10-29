@@ -64,7 +64,7 @@ This home SOC lab consists of three virtual machines. The Wazuh Server collects 
 | VM  | Role                | Operating System         | Minimum RAM | Storage           |
 | --- | ------------------- | ------------------------ | ----------- | ----------------- |
 | VM1 | Central SIEM server | Ubuntu Server 24.04 LTS  | **4 GB**    | **80 GB minimum** |
-| VM2 | Linux endpoint      | Ubuntu Desktop 24.04 LTS | 2 GB        | 25–40 GB          |
-| VM3 | Windows endpoint    | Windows 11               | 4 GB        | 80-100 GB          |
+| VM2 | Linux endpoint      | Ubuntu Desktop 26.04 LTS | 2 GB        | 25–40 GB          |
+| VM3 | Windows endpoint    | Windows 11               | 4 GB        | 100-150 GB         |
 
 **Note:** The agent specifications are starting points, not guarantees of optimal performance. Actual resource requirements depend on event volume, enabled services, and the applications running inside each VM.
