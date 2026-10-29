@@ -191,7 +191,7 @@ The Ubuntu Desktop VM is successfully deployed as a monitored endpoint when:
 
 The Ubuntu Desktop endpoint is now part of the Wazuh Home SOC Lab. It can be used to investigate Linux authentication events, monitor system activity, and practice security alert analysis.
 
-**Next step:** Deploy the Wazuh Agent on VM3 (Windows 10) using the same dashboard-based deployment workflow.
+**Next step:** Deploy the Wazuh Agent on VM3 (Windows 11) using the same dashboard-based deployment workflow.
 
 ## 7. References
 
