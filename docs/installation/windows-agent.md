@@ -149,10 +149,10 @@ Complete this section after testing the deployment.
 
 | Verification               | Result  |
 | -------------------------- | ------- |
-| Windows agent installed    | Pending |
-| Wazuh service running      | Pending |
-| Agent visible in dashboard | Pending |
-| Agent status Active        | Pending |
+| Windows agent installed    | Verified |
+| Wazuh service running      | Verified |
+| Agent visible in dashboard | Verified |
+| Agent status Active        | Verified |
 
 ## 8. Next Steps
 
