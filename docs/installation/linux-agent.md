@@ -11,7 +11,7 @@ The Linux endpoint sends security events to the central Wazuh Server for monitor
 | Component         | Configuration            |
 | ----------------- | ------------------------ |
 | Virtual Machine   | VM2                      |
-| Operating System  | Ubuntu Desktop 24.04 LTS |
+| Operating System  | Ubuntu Desktop 26.04 LTS |
 | Agent Name        | `vm2-agent`   |
 | Central Server    | Ubuntu Server VM1        |
 | Agent Group       | `default`                |
