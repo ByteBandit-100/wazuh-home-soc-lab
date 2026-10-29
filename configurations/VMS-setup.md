@@ -25,7 +25,7 @@ This home SOC lab consists of three virtual machines. The Wazuh Server collects 
 
 | Component        | Configuration                    |
 | ---------------- | -------------------------------- |
-| Operating System | Ubuntu Desktop 24.04 LTS         |
+| Operating System | Ubuntu Desktop 26.04 LTS         |
 | RAM              | 2–4 GB                           |
 | Storage          | 25–40 GB                         |
 | CPU              | 2 vCPUs                          |
@@ -39,15 +39,15 @@ This home SOC lab consists of three virtual machines. The Wazuh Server collects 
 * Monitor file integrity changes.
 * Generate security events and investigate Wazuh alerts.
 
-### VM3 — Windows Agent (Windows 10)
+### VM3 — Windows Agent (Windows 11)
 
 **Purpose:** Acts as a Windows endpoint for security event collection and analysis.
 
 | Component        | Configuration                    |
 | ---------------- | -------------------------------- |
-| Operating System | Windows 10                       |
-| RAM              | 2–4 GB                           |
-| Storage          | 40–60 GB                         |
+| Operating System | Windows 11                       |
+| RAM              | 4–6 GB                           |
+| Storage          | 100-150 GB                         |
 | CPU              | 2 vCPUs                          |
 | Network          | Same network as the Wazuh Server |
 | Software         | Wazuh Agent                      |
@@ -59,14 +59,12 @@ This home SOC lab consists of three virtual machines. The Wazuh Server collects 
 * Investigate suspicious activity.
 * Generate and analyze alerts in the Wazuh Dashboard.
 
-Use a legitimate Windows installation or evaluation image for your lab. Windows 10 standard support ended on October 14, 2025, so keep the VM isolated or appropriately secured and consider a supported Windows version for longer-term use.
-
 ### 📊 Lab Architecture Overview
 
 | VM  | Role                | Operating System         | Minimum RAM | Storage           |
 | --- | ------------------- | ------------------------ | ----------- | ----------------- |
 | VM1 | Central SIEM server | Ubuntu Server 24.04 LTS  | **4 GB**    | **80 GB minimum** |
 | VM2 | Linux endpoint      | Ubuntu Desktop 24.04 LTS | 2 GB        | 25–40 GB          |
-| VM3 | Windows endpoint    | Windows 10               | 2 GB        | 40–60 GB          |
+| VM3 | Windows endpoint    | Windows 11               | 4 GB        | 80-100 GB          |
 
 **Note:** The agent specifications are starting points, not guarantees of optimal performance. Actual resource requirements depend on event volume, enabled services, and the applications running inside each VM.
