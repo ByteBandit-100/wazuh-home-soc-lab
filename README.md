@@ -1,5 +1,8 @@
 # 🛡️Wazuh Home SOC Lab
+![wazuh-banner](/screenshots/image.png)
+
 A hands-on cybersecurity project focused on siem development, security monitoring, log analysis, alert investigation.
+
 ## 🏗️ Lab Architecture
 
 The lab consists of three virtual machines connected through a bridged network. Ubuntu Server hosts the Wazuh components, while Ubuntu Desktop and Windows 11 act as monitored endpoints.
