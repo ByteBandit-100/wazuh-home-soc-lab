@@ -65,5 +65,59 @@ These are the default ports commonly used in this setup. Confirm the actual conf
 | Wazuh Dashboard      | Provides the interface for monitoring and investigating events |
 | Ubuntu Desktop Agent | Sends Linux endpoint data to the Wazuh Manager                 |
 | Windows 11 Agent     | Sends Windows endpoint data to the Wazuh Manager               |
+| Sysmon               | Provides detailed system activity and security telemetry       |
 
 *The Manager, Indexer and Dashboard run on the same Ubuntu Server VM in this lab.*
+
+
+### 🔧 Technologies & Tools
+
+| Technology         | Purpose                                   |
+| ------------------ | ----------------------------------------- |
+| Wazuh SIEM 4.14.8  | Security monitoring and event analysis    |
+| Ubuntu Server      | SIEM infrastructure                       |
+| Ubuntu Desktop     | Linux endpoint monitoring                 |
+| Windows 11         | Windows endpoint monitoring               |
+| Sysmon             | Detailed endpoint activity monitoring     |
+| VirtualBox         | Virtual machine environment               |
+| Bridged Networking | Network connectivity                      |
+| Git & GitHub       | Project documentation and version control |
+
+
+
+### 🔍 SOC Monitoring & Investigation
+
+The main objective is to practice activities performed by a SOC Level 1 Analyst.
+
+Planned monitoring and investigation activities include:
+
+* Windows Security Event monitoring
+* Linux authentication monitoring
+* Sysmon process creation monitoring
+* Suspicious process activity investigation
+* Failed login detection
+* File Integrity Monitoring (FIM)
+* Security alert analysis
+* Event correlation and investigation
+* Basic incident documentation
+
+<!--- ### 🚀 Upcoming Tasks
+
+* [ ] Configure Linux authentication monitoring
+* [ ] Implement File Integrity Monitoring (FIM)
+* [ ] Develop additional Sysmon detection scenarios
+* [ ] Generate controlled security events for investigation
+* [ ] Investigate and document Wazuh alerts
+* [ ] Add firewall monitoring using pfSense
+* [ ] Explore IDS integration using Snort
+* [ ] Document practical SOC investigation scenarios
+--->
+
+
+
+---
+### 👨‍💻 Author
+
+**ByteBandit-100**
+
+This is an ongoing cybersecurity learning project focused on developing practical SOC Analyst skills through hands-on SIEM implementation, security monitoring, and investigation.
