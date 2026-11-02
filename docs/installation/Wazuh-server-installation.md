@@ -147,6 +147,7 @@ Press `q` to exit each status screen.
 
 Investigate the service status and error logs first. If the service is stopped without an underlying fault, start it using the appropriate command:
 
+
 ```bash
 sudo systemctl start wazuh-manager
 sudo systemctl start wazuh-indexer
